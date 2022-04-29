@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <meta name="viewport" content="width=device-width, initil-scale=1.0">
+  <title>Completed - NewsFlash | Home</title>
+<!--   Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon.png">
+<!--   Remix Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+<!--   Swiper.js styles -->
+  <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css"/>
+<!--   Custom Styles -->
+  <title>pantrillo</title>
+  <link href="index.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<!--   Header -->
+  <header class="header" id="header">
+    <nav class="navbar container">
+      <a href="./index.html">
+        <h2 class="logo">Pantrillo</h2>
+      </a>
+      <div class="menu" id="menu">
+        <ul class="list">
+          <li class="list-item">
+              <a href="#" class="list-link current">Home</a>
+          </li>
+          <li class="list-item">
+              <a href="#" class="list-link">My pantry</a>
+          </li>
+          <li class="list-item">
+              <a href="#" class="list-link">Ingredients</a>
+          </li>
+          <li class="list-item">
+              <a href="#" class="list-link">Eat this not that</a>
+          </li>
+          <li class="list-item">
+              <a href="#" class="list-link">Pre-made recipes</a>
+          </li>
+          <li class="list-item screen-lg-hidden">
+              <a href="#" class="list-link">Sign in</a>
+          </li>
+          <li class="list-item screen-lg-hidden">
+              <a href="#" class="list-link">Sign up</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class ="list list-right">
+        <button class="btn place-items-center" id="theme-toggle-btn">
+          <i class="ri-sun-line sun-icon"></i>  
+          <i class="ri-moon-line moon-icon"></i> 
+          </button>
+
+
+
+		
+<button class="btn place-items-center" id="search-icon">
+  <i class="ri-search-line"></i>
+</button>
+		  
+
+<button class="btn place-items-center screen-lg-hidden menu-toggle-icon" id="menu-toggle-icon">
+          <i class="ri-menu-3-line open-menu-icon"></i>  
+          <i class="ri-close-line close-menu-icon"></i>  
+          </button>
+        <a href="#" class="list-link screen-sm-hidden">Sign in</a>
+        <a href="#" class="list-link screen-sm-hidden sign-up-btn fancy-border">
+          <span>sign in</span>
+        </a>
+      </div>
+    </nav>
+  </header>
+
+<!--   Search -->
+  
+  <div class="search-form-container container" id="search-form-container">
+    
+    <div class="form-container-inner">
+      
+      <form action="" class="form">
+        
+        <input type="text" class="form-input" placeholder="What sounds good?">
+        <button class="btn form-btn" type="submit">
+          <i class = "ri-search-line"></i>
+        </button>
+      </form>
+      <span class="form-note">Press ESC to close.</span>
+    </div>
+
+    <button class = "btn form-close-btn place-items-center" id="form-close-btn">
+      <i class="ri-close-line"></i>
+    </button>
+  </div>
+<!-- featured recipes -->
+
+  <section class="featured-recipes section-header-offset">
+    <div class="featured-recipes-container" container d-grid">
+      <div class="featured-recipes d-grid">
+        <div class="headline-banner">
+            <h3 class="headline fancy-border">
+              <span class="place-items-center">Breaking News</span>
+            </h3>
+          <span class="headline-description">desc</span>
+        </div>
+        
+<!--         Card          -->
+        
+        <a href="./post.html" class="article featured-article featured-article-1">    </a>
+       <img src="../assets/images/featured/featured-1.svg" alt="" class="article-image">
+            <span class="article-category">Food</span>
+              <div class="article-data-container"> </div>
+                <div class="article-data"> </div>
+<!-- selections  -->
+<!-- protein     -->
+<h2>Protein:</h2>
+  <div class = "all_prot">
+    
+    <div class = "chick"> 
+      <img src = "./food/chicken.png" id = "chic"> 
+		<input type="checkbox" name="protein" value="chicken" id="p1">
+    <h3> Chicken </h3>   
+    </div>
+
+    <div class = "bef">
+		<input type="checkbox" name="protein" value="beef" id="p2">
+    <h3> Beef </h3>
+    </div>
+
+    <div class = "eg">
+		<input type="checkbox" name="protein" value="eggs" id="p4">
+      <h3>Eggs</h3>
+    </div>
+    
+  </div>
+        
+ <br> </br>       
+<br> </br>
+                  
+<!-- veggie -->
+  	<h2>Veggies:</h2> 
+	<label for="veggies1"> 
+		<input type="checkbox" name="veg" value="green-beans" id="v1">Green Beans</label>
+                  
+	<label for="veggie2">
+		<input type="checkbox" name="veg" value="corn" id="v2">Corn</label>
+                  
+	<label for="veggie3">
+		<input type="checkbox" name="veg" value="tomatoes" id="v3">Tomatoes</label>
+                  
+  <label for="veggie4">
+		<input type="checkbox" name="veg" value="onions" id="v4">Onions</label>
+                  
+  <label for="veggie5">
+		<input type="checkbox" name="veg" value="bell-peppers" id="v5">Bell Peppers</label>
+
+<br></br>
+<br></br>
+<!-- carb  -->
+<h2>Carbohydrates:</h2>
+                  
+  <label for="carb6">
+		<input type="checkbox" name="carb" value="potatoes" id="c6">Potatoes</label>
+                  
+  <label for="carb7">
+		<input type="checkbox" name="carb" value="noodles" id="c7">Noodles</label>
+                  
+  <label for="carb8">
+		<input type="checkbox" name="carb" value="rice" id="c8">Rice</label>
+
+  <br></br>
+  <br></br>
+<!-- oils  -->
+<h2>Oils:</h2>
+    
+	<label for="fat1"> 
+		<input type="checkbox" name="fat" value="butter" id="f1">Butter</label>
+        
+	<label for="fat2">
+		<input type="checkbox" name="fat" value="vegetable-oil" id="f2">Vegetable Oil</label>
+        
+	<label for="fat3">
+		<input type="checkbox" name="fat" value="coconut-oil" id="f3">Coconut Oil</label>
+  <label for="fat4">
+
+  <label for="fat5">
+		<input type="checkbox" name="fat" value="avocado" id="f5">Avocado</label>
+    
+  <label for="fat6">
+		<input type="checkbox" name="fat" value="cheese" id="f6">Cheese</label>
+    <br><br>
+        
+        
+            
+    </div>
+    </section>
+  <script src="nav.js"></script>
+</body>
+
+</html>

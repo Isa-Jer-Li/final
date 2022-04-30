@@ -1,7 +1,7 @@
 // password
 function toggleHidePass() {
   let x = document.getElementById("password-input")
-  if (x.type === "password") { 
+  if (x.type === "password") {
 x.type = "text";
 } else {
 x.type = "password";
@@ -11,7 +11,7 @@ x.type = "password";
 // signup pass
 function toggleHidePassSignUp() {
   let x = document.getElementById("sign-up-password-input")
-  if (x.type === "password") { 
+  if (x.type === "password") {
 x.type = "text";
 } else {
 x.type = "password";

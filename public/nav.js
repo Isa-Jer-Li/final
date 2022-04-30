@@ -4,7 +4,7 @@ const selectElement = selector => {
   //add validation
     if(element) return element;
   throw new Error('uh oh');
-  
+
 };
 
 // console.log(selectElement('.navbar'));
@@ -24,14 +24,14 @@ window.addEventListener('scroll', scrollHeader)
 //search
 
 
-//open menu 
+//open menu
 
 const menuToggleIcon = selectElement('#menu-toggle-icon')
 
 const toggleMenu = () => {
   const mobileMenu = selectElement('#menu')
   mobileMenu.classList.toggle('activated')
-  menuToggleIcon.classList.toggle('activated') 
+  menuToggleIcon.classList.toggle('activated')
 }
 
 
@@ -61,10 +61,10 @@ if(currentTheme){
 }
 themeToggleBtn.addEventListener('click', () => {
   bodyElement.classList.toggle('light-theme') //light theme added
-  
+
 
   if(bodyElement.classList.contains('light-theme')){
-    //set current theme to local storage 
+    //set current theme to local storage
     localStorage.setItem('currentTheme', 'themeActive')
   } else{
       localStorage.removeItem('currentTheme')

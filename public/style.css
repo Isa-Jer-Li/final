@@ -40,8 +40,8 @@ h1 {
 
 button {
   width: 250px;
-  cursor: pointer; 
-  border-radius: 8px; 
+  cursor: pointer;
+  border-radius: 8px;
   /*Delete this for buttons w sharp corners*/
 }
 
@@ -67,7 +67,7 @@ button:hover {
   max-width: 550px;
   padding: 50px;
   border: 1px solid #000;
-  border-radius: 8px; 
+  border-radius: 8px;
   /*Delete this for container w sharp corners*/
   align: center;
   font-family: 'Orelega One';
@@ -87,11 +87,11 @@ button:hover {
 
 
 #log-in-modal, #sign-up-modal {
-  color: #F98E04;
+  color: black;
    text-shadow: 0 0 3px #9B9B9B;
   -webkit-text-stroke-width: 0.5px;
   -webkit-text-stroke-color: #2B2B2B;
-  
+
   border-radius: 50%;
   width: 350px;
   height: 350px;
@@ -100,7 +100,7 @@ button:hover {
   transform: translate(-50%, -50%);
   border: 3px solid black;
 /*   make it a circle */
-  position: absolute; 
+  position: absolute;
   background-color: lightgray;
   opacity: .95;
   max-width: 400px;
@@ -131,14 +131,14 @@ button:hover {
   width: 60px;
   background-color: #038ED7;
   color: white;
-  cursor: pointer; 
+  cursor: pointer;
 }
 
 #submit {
   width: 60px;
   background-color: #038ED7;
   color: white;
-  cursor: pointer; 
+  cursor: pointer;
 }
 
 #home-page {

@@ -12,12 +12,12 @@ app.use(express.urlencoded({extended:true})) //allows you to access req.body
 
 //function to post user sign-up data
 app.post('/users', (req,res) => {
-  
+
   let user = {
     email: req.body.email,
     password: req.body.password,
   } //establish credentials as user obj
-  
+
   async function insertUser() {
 	await client.connect()
 	const collection = client.db('test_db').collection('users')

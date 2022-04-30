@@ -54,11 +54,6 @@ a{
 
 }
 
-img{
-  max-width: 100%;
-  display: block;
-}
-
 ul{
   list-style: none;
 }
@@ -229,62 +224,45 @@ search */
   }
 
 /*  for food selection  */
-button {
-  position: absolute;
-  display: inline-block;
+
+img{
+  height: 150px;
+  display: block;
+  max-width: 100%;
+}
+
+
+h2 {
+  text-align: center;
+  font-size: 50px;
+}
+
+h3 {
+  display: inline;
+  text-align: center;
 }
 
 .all_prot {
   display: flex;
-  align-items: space-between;
+  justify-content: space-between;
 }
 
-.chick, .bef, .eg {
-  flex: 1;
+.food {
+  margin: auto;
 }
 
-#chic, #befe, #ege {
-  height: 150px;
-  flex: 1;
+input, button {
+    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, .2);
 }
-/*   .form-input,
-  .form-btn{
-    display: inline-block;
-    border: 2px solid var(--secondary-background-color);
-    padding: 1.5rem
 
-  }
+button {
+  position: absolute;
+  display: inline-block;
 
-  .form-input{
-    border-right: none;
-    width: 100%;
-    background-color: var(--primary-background-color);
-
-
-  }
-
-  .form-btn {
-    margin-left: -.5rem;
-    border-left: none;
-    background-color: var(--secondary-background-color);
-    width: 8rem;
-  }
-
-  .form-note {
-    font-size: var(--font-size-xsm);
-    align-self: flex-end;
-  }
-
-  .form-close-btn {
-    position: absolute;
-    top: 1.5rem;
-    right: 1.5rem;
-    border: 2px solid var(--secondary-background-color);
-    width: 4rem;
-    height: 4rem;
-  }
-
-  .search-form-container.activated{
-    opacity: 1;
-    transform: scale(1);
-  } */
+  align-items: center;
+  height: 40px;
+  width: 100px;
+  font-size: 15px;
+  font-family: Verdana;
+  background-color: white;
+}

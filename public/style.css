@@ -51,7 +51,7 @@ button:hover {
 
 
 .logo {
-  background: url(/img/logo.svg);
+  background: url(./img/logo.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -69,7 +69,7 @@ button:hover {
   border: 1px solid #000;
   border-radius: 8px;
   /*Delete this for container w sharp corners*/
-  align: center;
+  align-items: center;
   font-family: 'Orelega One';
 }
 

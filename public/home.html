@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <meta name="viewport" content="width=device-width, initil-scale=1.0">
+  <meta name="viewport" content="width=device-width">
   <title>Completed - NewsFlash | Home</title>
 <!--   Favicon -->
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon.png">
@@ -19,121 +19,29 @@
 
 <body>
 <!--   Header -->
-  <header class="header" id="header">
-    <nav class="navbar container">
-      <a href="./index.html">
-        <h2 class="logo">Pantrillo</h2>
-      </a>
-      <div class="menu" id="menu">
-        <ul class="list">
-          <li class="list-item">
-              <a href="#" class="list-link current">Home</a>
-          </li>
-          <li class="list-item">
-              <a href="#" class="list-link">My pantry</a>
-          </li>
-          <li class="list-item">
-              <a href="#" class="list-link">Ingredients</a>
-          </li>
-          <li class="list-item">
-              <a href="#" class="list-link">Eat this not that</a>
-          </li>
-          <li class="list-item">
-              <a href="#" class="list-link">Pre-made recipes</a>
-          </li>
-          <li class="list-item screen-lg-hidden">
-              <a href="#" class="list-link">Sign in</a>
-          </li>
-          <li class="list-item screen-lg-hidden">
-              <a href="#" class="list-link">Sign up</a>
-          </li>
-        </ul>
-      </div>
 
-      <div class ="list list-right">
-        <button class="btn place-items-center" id="theme-toggle-btn">
-          <i class="ri-sun-line sun-icon"></i>
-          <i class="ri-moon-line moon-icon"></i>
-          </button>
-
-
-
-
-<button class="btn place-items-center" id="search-icon">
-  <i class="ri-search-line"></i>
-</button>
-
-
-<button class="btn place-items-center screen-lg-hidden menu-toggle-icon" id="menu-toggle-icon">
-          <i class="ri-menu-3-line open-menu-icon"></i>
-          <i class="ri-close-line close-menu-icon"></i>
-          </button>
-        <a href="#" class="list-link screen-sm-hidden">Sign in</a>
-        <a href="#" class="list-link screen-sm-hidden sign-up-btn fancy-border">
-          <span>sign in</span>
-        </a>
-      </div>
-    </nav>
-  </header>
-
-<!--   Search -->
-
-  <div class="search-form-container container" id="search-form-container">
-
-    <div class="form-container-inner">
-
-      <form action="" class="form">
-
-        <input type="text" class="form-input" placeholder="What sounds good?">
-        <button class="btn form-btn" type="submit">
-          <i class = "ri-search-line"></i>
-        </button>
-      </form>
-      <span class="form-note">Press ESC to close.</span>
-    </div>
-
-    <button class = "btn form-close-btn place-items-center" id="form-close-btn">
-      <i class="ri-close-line"></i>
-    </button>
-  </div>
-<!-- featured recipes -->
-
-  <section class="featured-recipes section-header-offset">
-    <div class="featured-recipes-container" container d-grid">
-      <div class="featured-recipes d-grid">
-        <div class="headline-banner">
-            <h3 class="headline fancy-border">
-              <span class="place-items-center">Breaking News</span>
-            </h3>
-          <span class="headline-description">desc</span>
-        </div>
-
-<!--         Card          -->
-
-        <a href="./post.html" class="article featured-article featured-article-1">    </a>
-       <img src="../assets/images/featured/featured-1.svg" alt="" class="article-image">
-            <span class="article-category">Food</span>
-              <div class="article-data-container"> </div>
-                <div class="article-data"> </div>
 <!-- selections  -->
 <!-- protein     -->
 <h2>Protein:</h2>
   <div class = "all_prot">
 
-    <div class = "chick">
+  <div class = "food">
+
       <img src = "./food/chicken.png" id = "chic">
     <input type="checkbox" name="protein" value="chicken" id="p1">
     <h3> Chicken </h3>
     </div>
 
-    <div class = "bef">
-       <img src = "./food/chicken.png" id = "chic" id = "befe">
+    <div class = "food">
+
+       <img src = "./food/chicken.png" id = "befe">
     <input type="checkbox" name="protein" value="beef" id="p2">
     <h3> Beef </h3>
     </div>
 
-    <div class = "eg">
-       <img src = "./food/chicken.png" id = "chic" id = "ege">
+    <div class = "food">
+
+       <img src = "./food/chicken.png" id = "ege">
     <input type="checkbox" name="protein" value="eggs" id="p4">
       <h3>Eggs</h3>
     </div>
@@ -144,72 +52,98 @@
 <br> </br>
 
 <!-- veggie -->
+    <h2>Veggies:</h2>
+
         <div class = "all_prot">
 
-    <h2>Veggies:</h2>
-  <img src = "./food/chicken.png" id = "chic" id = "ege">
+<div class = "food">
+  <img src = "./food/chicken.png" id = "ben">
     <input type="checkbox" name="veg" value="green-beans" id="v1">
         <h3> Green Beans </h3>
+</div>
 
-  <img src = "./food/chicken.png" id = "chic" id = "ege">
+<div class = "food">
+  <img src = "./food/chicken.png" id = "cor">
     <input type="checkbox" name="veg" value="corn" id="v2">
         <h3> Corn </h3>
+</div>
 
-    <img src = "./food/chicken.png" id = "chic" id = "ege">
+<div class = "food">
+    <img src = "./food/chicken.png" id = "oni">
     <input type="checkbox" name="veg" value="onions" id="v4">
         <h3> Onions </h3>
+</div>
 
-  <img src = "./food/chicken.png" id = "chic" id = "ege">
+<div class = "food">
+  <img src = "./food/chicken.png" id = "bel">
     <input type="checkbox" name="veg" value="bell-peppers" id="v5">
         <h3>Bell Peppers </h3>
+</div>
+
         </div>
 <br></br>
 <br></br>
 <!-- carb  -->
 <h2>Carbohydrates:</h2>
+
    <div class = "all_prot">
 
-  <img src = "./food/chicken.png" id = "chic" id = "ege">
+<div class = "food">
+  <img src = "./food/chicken.png" id = "pota">
     <input type="checkbox" name="carb" value="potatoes" id="c6">
         <h3> Potatoes </h3>
+</div>
 
-   <img src = "./food/chicken.png" id = "chic" id = "ege">
+<div class = "food">
+   <img src = "./food/chicken.png"id = "noodl">
     <input type="checkbox" name="carb" value="noodles" id="c7">
         <h3>Noodles </h3>
+</div>
 
-    <img src = "./food/chicken.png" id = "chic" id = "ege">
+<div class = "food">
+    <img src = "./food/chicken.png" id = "rie">
     <input type="checkbox" name="carb" value="rice" id="c8">
         <h3> Rice </h3>
+</div>
+
    </div>
 
   <br></br>
   <br></br>
 <!-- oils  -->
 <h2>Oils:</h2>
+
   <div class = "all_prot">
 
-  <img src = "./food/chicken.png" id = "chic" id = "ege">
+<div class = "food">
+  <img src = "./food/chicken.png" id = "buttr">
     <input type="checkbox" name="fat" value="butter" id="f1">
     <h3>Butter </h3>
+</div>
 
-  <img src = "./food/chicken.png" id = "chic" id = "ege">
+<div class = "food">
+  <img src = "./food/chicken.png" id = "vo">
     <input type="checkbox" name="fat" value="vegetable-oil" id="f2">
     <h3> Vegetable Oil </h3>
+</div>
 
-<img src = "./food/chicken.png" id = "chic" id = "ege">
+<div class = "food">
+<img src = "./food/chicken.png" id = "co">
     <input type="checkbox" name="fat" value="coconut-oil" id="f3">
     <h3> Coconut Oil </h3>
+</div>
 
-
-  <img src = "./food/chicken.png" id = "chic" id = "ege">
+<div class = "food">
+  <img src = "./food/chicken.png" id = "ao">
     <input type="checkbox" name="fat" value="avocado" id="f5">
     <h3> Avocado </h3>
+</div>
 
   </div>
 
 
-    </div>
-    </section>
+
+
   <script src="nav.js"></script>
 </body>
 

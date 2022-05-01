@@ -3,9 +3,10 @@
 /* my properties */
 
 :root{
-   --light-color: #fff;
+
+   --light-color: #131417;
     --light-color-alt: #afb6cd;
-    --primary-background-color: #131417;
+    --primary-background-color: #fff;
     --secondary-background-color: #252830;
     --hover-light-color: var(--light-color);
     --hover-dark-color: var(--primary-background-color);
@@ -27,6 +28,7 @@
 
 
 }
+
 /* root styles */
 *{
   margin: 0;
@@ -233,11 +235,14 @@ img{
 
 
 h2 {
+  color: white;
   text-align: center;
   font-size: 50px;
 }
 
 h3 {
+  color: black;
+  text-shadow: beige;
   display: inline;
   text-align: center;
 }
@@ -256,8 +261,25 @@ h3 {
 }
 
 .food:hover:after{
+  color: black;
+  text-shadow: beige;
   content: attr(data-hover);
   font-size: 20px;
+}
+
+.titled {
+  margin: auto;
+  text-align: center;
+}
+
+.titled:hover {
+  font-size: 0;
+}
+
+.titled:hover:after{
+  content: attr(data-hover);
+  font-size: 40px;
+  color: #F98E04;
 }
 
 input, button {
@@ -267,11 +289,18 @@ input, button {
 button {
   position: absolute;
   display: inline-block;
-
   align-items: center;
   height: 40px;
   width: 100px;
   font-size: 15px;
   font-family: Verdana;
   background-color: white;
+}
+
+.bg1 {
+  background: #00bcfe;
+}
+
+.text-accent {
+  color: #3669c9;
 }

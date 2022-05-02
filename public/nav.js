@@ -1,4 +1,6 @@
-object.addEventListener("click", myScript);
+function recipes () {
+	console.log("rexipes")
+}
 
 //grab the elements
 const selectElement = selector => {

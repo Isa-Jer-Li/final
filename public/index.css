@@ -326,3 +326,7 @@ button {
   color: #3669c9;
 }
 
+#btn {
+  background: #3669c9;
+  cursor: pointer;
+}

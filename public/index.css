@@ -260,6 +260,7 @@ h3 {
 .all_prot {
   display: flex;
   justify-content: space-between;
+  padding: 50px;
 }
 
 /* .food {

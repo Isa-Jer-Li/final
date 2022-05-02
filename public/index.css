@@ -234,15 +234,25 @@ img{
 }
 
 
+h1 {
+text-align: center;
+font-size: 80px;
+}
+
 h2 {
   color: white;
   text-align: center;
   font-size: 50px;
 }
 
+.blue {
+  color:  #3669c9;
+  text-align: center;
+  font-size: 50px;
+}
+
 h3 {
   color: black;
-  text-shadow: beige;
   display: inline;
   text-align: center;
 }
@@ -252,7 +262,7 @@ h3 {
   justify-content: space-between;
 }
 
-.food {
+/* .food {
   margin: auto;
 }
 
@@ -262,17 +272,16 @@ h3 {
 
 .food:hover:after{
   color: black;
-  text-shadow: beige;
   content: attr(data-hover);
   font-size: 20px;
-}
+} */
 
-.titled {
+.titled , .blue{
   margin: auto;
   text-align: center;
 }
 
-.titled:hover {
+/* .titled:hover {
   font-size: 0;
 }
 
@@ -281,6 +290,17 @@ h3 {
   font-size: 40px;
   color: #F98E04;
 }
+
+
+.blue:hover {
+  font-size: 0;
+}
+
+.blue:hover:after{
+  content: attr(data-hover);
+  font-size: 40px;
+  color: #F98E04;
+} */
 
 input, button {
     box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, .2);
@@ -304,3 +324,4 @@ button {
 .text-accent {
   color: #3669c9;
 }
+

@@ -1,6 +1,7 @@
 // modal
 async function ButtonClicked() {
 
+  document.getElementById("modal").style.display = "block"
   let values = []
   let checkboxes = document.querySelectorAll('input:checked')
 
@@ -27,7 +28,8 @@ async function ButtonClicked() {
   document.getElementById('image').src = ""
 
  try{
-   const url = "/api?ingredients=" + values
+   // here to display on modal
+  const url = "/api?ingredients=" + values
   const rawRes = await fetch(url)
   const rawResJSON = await rawRes.json()
 
@@ -67,7 +69,6 @@ async function ButtonClicked() {
 
       document.getElementById('image').src = rawResJSON[i].img
 
-      document.getElementById("modal").style.display = "block"
     }
     }
   }
@@ -81,20 +82,24 @@ async function ButtonClicked() {
   // values = []
   // console.log(values)
 }
+function closeModal() {
+document.getElementById("modal").style.display = "none"
+}
 
-//grab the elements
-const selectElement = selector => {
-  const element = document.querySelector(selector)
-  //add validation
-	if(element) return element
-	throw new Error('uh oh')
-};
 
-// console.log(selectElement('.navbar'));
+// grab the elements
+// const document.querySelector = selector => {
+//   const element = document.querySelector(selector)
+//   //add validation
+// 	if(element) return element
+// 	throw new Error('uh oh')
+// };
+
+console.log(document.querySelector('.navbar'));
 
 //nav styles on scroll
 const scrollHeader = () => {
-  const headerElement = selectElement('#header')
+  const headerElement = document.querySelector('#header')
   if(this.scrollY >= 15){
 	headerElement.classList.add('activated')
   } else{
@@ -106,19 +111,19 @@ window.addEventListener('scroll', scrollHeader)
 
 //open menu
 
-const menuToggleIcon = selectElement('#menu-toggle-icon')
+const menuToggleIcon = document.querySelector('#menu-toggle-icon')
 
 const toggleMenu = () => {
-const mobileMenu = selectElement('#menu')
+const mobileMenu = document.querySelector('#menu')
   mobileMenu.classList.toggle('activated')
   menuToggleIcon.classList.toggle('activated')
 }
 
 menuToggleIcon.addEventListener('click', toggleMenu)
 
-const formOpenBtn = selectElement('#search-icon')
-const formCloseBtn = selectElement('#form-close-btn')
-const searchFormContainer = selectElement('#search-form-container')
+const formOpenBtn = document.querySelector('#search-icon')
+const formCloseBtn = document.querySelector('#form-close-btn')
+const searchFormContainer = document.querySelector('#search-form-container')
 //open search form
 formOpenBtn.addEventListener('click', () => searchFormContainer.classList.add('activated'))
 //close search form
@@ -131,7 +136,7 @@ window.addEventListener('keyup', event => {
 
 //define a variable to store in the body element
 const bodyElement = document.body
-const themeToggleBtn = selectElement('#theme-toggle-btn')
+const themeToggleBtn = document.querySelector('#theme-toggle-btn')
 // get a current item in local storage
 const currentTheme = localStorage.getItem('currentTheme')
 

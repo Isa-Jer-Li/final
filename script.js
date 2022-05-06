@@ -1,6 +1,3 @@
-
-
-
 // password
 function toggleHidePass() {
   let x = document.getElementById("password-input")

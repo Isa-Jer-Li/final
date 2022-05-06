@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <meta name="viewport" content="width=device-width">
+  <title>Completed - NewsFlash | Home</title>
+<!--   Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon.png">
+<!--   Remix Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+<!--   Swiper.js styles -->
+  <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css"/>
+<!--   Custom Styles -->
+  <title>pantrillo</title>
+  <link href="selection.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<!--   Nav -->
+ <header class="header" id="header">
+    <nav class="navbar container">
+      <a href="./index.html">
+        <h2 class="logo">Pantrillo</h2>
+      </a>
+      <div class="menu" id="menu">
+        <ul class="list">
+          <li class="list-item">
+              <a href="#" class="list-link current">Home</a>
+          </li>
+          <li class="list-item">
+              <a href="#" class="list-link">My pantry</a>
+          </li>
+          <li class="list-item">
+              <a href = "/selection"> Pick out your produce </a>
+          </li>
+          <li class="list-item">
+              <a href="#" class="list-link">Eat this not that</a>
+          </li>
+          <li class="list-item">
+              <a href="#" class="list-link">Pre-made recipes</a>
+          </li>
+          <li class="list-item screen-lg-hidden">
+              <a href="#" class="list-link">Sign in</a>
+          </li>
+          <li class="list-item screen-lg-hidden">
+              <a href="#" class="list-link">Sign up</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class ="list list-right">
+        <button class="btn place-items-center" id="theme-toggle-btn">
+          <i class="ri-sun-line sun-icon"></i>
+          <i class="ri-moon-line moon-icon"></i>
+          </button>
+
+<!--   Search -->
+
+
+
+
+        <button class="btn place-items-center" id="search-icon">
+          <i class="ri-search-line"></i>
+          </button>
+
+
+
+
+
+
+
+        <button class="btn place-items-center screen-lg-hidden menu-toggle-icon" id="menu-toggle-icon">
+          <i class="ri-menu-3-line open-menu-icon"></i>
+          <i class="ri-close-line close-menu-icon"></i>
+          </button>
+        <a href="#" class="list-link screen-sm-hidden">Sign in</a>
+        <a href="#" class="list-link screen-sm-hidden sign-up-btn fancy-border">
+          <span>sign in</span>
+        </a>
+      </div>
+    </nav>
+  </header>
+<!-- Header -->
+<h1> Select what is in your pantry! </h1>
+<!-- selections  -->
+<!-- protein     -->
+<div class = "bg1">
+
+<div class = "titled" data-hover = "Proteína">
+  <h2>Protein:</h2>
+</div>
+
+  <div class = "all_prot">
+
+  <div class = "food" data-hover = "Pollo">
+
+      <img src = "../food/chicken.png" id = "chic">
+    <input type="checkbox" name="protein" value="chicken" id="p1">
+    <!-- lang hover option -->
+    <h3> Chicken </h3>
+    </div>
+<!-- Need beef pic -->
+    <div class = "food" data-hover = "Carne de vaca">
+
+       <img src = "../food/chicken.png" id = "befe">
+    <input type="checkbox" name="protein" value="beef" id="p2">
+    <h3> Beef </h3>
+    </div>
+
+    <div class = "food" data-hover = "Huevo">
+<!-- Need egg pic -->
+       <img src = "../food/chicken.png" id = "ege">
+    <input type="checkbox" name="protein" value="eggs" id="p4">
+      <h3>Eggs</h3>
+    </div>
+  </div>
+
+ <br> </br>
+</div>
+<br> </br>
+
+<!-- veggie -->
+<!-- need to made text blue #3669c9-->
+<div class = "titled" data-hover = "Verduras">
+
+  <span class = "blue">  Veggies: </span>
+
+</div>
+        <div class = "all_prot">
+<!-- Need edited green beans -->
+<div class = "food" data-hover = "Judías verdes">
+  <img src = "../food/tomato.png" id = "ben">
+    <input type="checkbox" name="veg" value="green-beans" id="v1">
+        <h3> Tomato </h3>
+</div>
+
+<div class = "food" data-hover = "Maíz">
+  <img src = "../food/corn.png" id = "cor">
+    <input type="checkbox" name="veg" value="corn" id="v2">
+        <h3> Corn </h3>
+</div>
+
+<div class = "food" data-hover = "Cebolla">
+    <img src = "../food/onion.png" id = "oni">
+    <input type="checkbox" name="veg" value="onions" id="v4">
+        <h3> Onions </h3>
+</div>
+<!-- Need bell pepper edited -->
+<div class = "food" data-hover = "Pimiento">
+  <img src = "../food/chicken.png" id = "bel">
+    <input type="checkbox" name="veg" value="bell-peppers" id="v5">
+        <h3>Bell Peppers </h3>
+</div>
+
+        </div>
+<br></br>
+<br></br>
+<!-- carb  -->
+<div class = "bg1">
+<div class = "titled" data-hover = "Carbohidratos">
+<h2>Carbohydrates:</h2>
+</div>
+
+   <div class = "all_prot">
+
+<div class = "food" data-hover = "Patatas">
+  <img src = "../food/potato.png" id = "pota">
+    <input type="checkbox" name="carb" value="potatoes" id="c6">
+        <h3> Potatoes </h3>
+</div>
+
+<div class = "food" data-hover = "Fideos">
+   <img src = "../food/ramen.png"id = "noodl">
+    <input type="checkbox" name="carb" value="noodles" id="c7">
+        <h3>Noodles </h3>
+</div>
+
+<div class = "food" data-hover = "Arroz">
+    <img src = "../food/rice_bowl.png" id = "rie">
+    <input type="checkbox" name="carb" value="rice" id="c8">
+        <h3> Rice </h3>
+</div>
+
+   </div>
+
+  <br></br>
+</div>
+  <br></br>
+<!-- oils  -->
+<!-- need to made text blue #3669c9-->
+<div class = "titled" data-hover = "Petróleo">
+
+ <span class = "blue"> Oils: </span>
+
+</div>
+  <div class = "all_prot">
+
+<!-- Need Butter edited -->
+<div class = "food" data-hover = "Manteca">
+  <img src = "../food/chicken.png" id = "buttr">
+    <input type="checkbox" name="fat" value="butter" id="f1">
+    <h3>Butter </h3>
+</div>
+<!-- Need veg oil edited -->
+<div class = "food" data-hover = "Aceite vegatal">
+  <img src = "../food/chicken.png" id = "vo">
+    <input type="checkbox" name="fat" value="vegetable-oil" id="f2">
+    <h3> Vegetable Oil </h3>
+</div>
+
+<div class = "food" data-hover = "Aceite de coco">
+<img src = "../food/chicken.png" id = "co">
+    <input type="checkbox" name="fat" value="coconut-oil" id="f3">
+    <h3> Coconut Oil </h3>
+</div>
+
+</div>
+
+
+<button id = "btn" onclick = "ButtonClicked()">Generate recipes </button>
+
+<!-- Show recipes on modal -->
+<div id = "modal">
+  <div class = "modal-content">
+
+    <button id = "bttn" onclick = "closeModal()"> Be a little bit longer </button>
+<!--     Show recipe title -->
+  <p id="title"></p>
+
+  <!--   Show time to make recipe -->
+  <p id="time"></p>
+
+<!--   Show nutrition -->
+  <p id="nutrition"></p>
+
+<!--     show recipe searches ingredients -->
+  <p id="ingredients"></p>
+
+<!--   show preparation -->
+  <p id="prep"></p>
+
+<!--     disp recipe image -->
+  <img id="image" src=""></p>
+
+   </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="selection.js"></script>
+</body>
+
+</html>

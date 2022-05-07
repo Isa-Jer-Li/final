@@ -1,7 +1,3 @@
-// joke
-const jokeElement = document.getElementById('joke')
-const jokeButton = document.getElementById('jokeButton')
-
 jokeButton.addEventListener('click', generateJoke)
 
 generateJoke()
@@ -24,3 +20,11 @@ try {
 	console.log(err)
 }
 }
+// joke
+const jokeElement = document.getElementById('joke')
+const jokeButton = document.getElementById('jokeButton')
+
+
+var name = localStorage.getItem("mytime");
+
+

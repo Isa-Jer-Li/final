@@ -13,7 +13,7 @@ async function ButtonClicked() {
 
 async function saveRecipe() {
    // fill with info to save to flashcard
-   })
+   }
 
   const title = document.getElementById('title')
   const ingredients =

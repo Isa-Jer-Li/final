@@ -302,9 +302,7 @@ button {
 }
 
 #butt {
-    position: absolute;
-    /* margin-bottom: 90px; */
-    margin: 40px;
+    margin-right: 10px;
 }
 /* modal */
 

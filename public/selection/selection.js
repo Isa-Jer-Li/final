@@ -11,6 +11,9 @@ async function ButtonClicked() {
 
    values.join(',')
 
+async function saveRecipe() {
+   // fill with info to save to flashcard
+   })
 
   const title = document.getElementById('title')
   const ingredients =
@@ -25,7 +28,7 @@ async function ButtonClicked() {
   nutrition.innerHTML = ""
   prep.innerHTML = ""
   time.innerHTML = ""
-  document.getElementById('image').src = ""
+  // document.getElementById('image').src = ""
 
  try{
    // here to display on modal
@@ -69,7 +72,7 @@ async function ButtonClicked() {
         `
       }
 
-      document.getElementById('image').src = rawResJSON[i].img
+      // document.getElementById('image').src = rawResJSON[i].img
 
     }
     }
@@ -84,6 +87,7 @@ async function ButtonClicked() {
   // values = []
   // console.log(values)
 }
+
 function closeModal() {
 document.getElementById("modal").style.display = "none"
 }

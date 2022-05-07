@@ -127,7 +127,6 @@
 </div>
   <br></br>
 <!-- oils  -->
-<!-- need to made text blue #3669c9-->
 <div class = "titled" data-hover = "Petróleo">
 
  <span class = "blue"> Oils: </span>
@@ -154,6 +153,12 @@
     <h3> Coconut Oil </h3>
 </div>
 
+<div class = "food" data-hover = "Aceite de coco">
+<img src = "../food/chicken.png" id = "co">
+    <input type="checkbox" name="fat" value="olive-oil" id="f3">
+    <h3> Olive Oil </h3>
+</div>
+
 </div>
 
 
@@ -163,7 +168,8 @@
 <div id = "modal">
   <div class = "modal-content">
 
-    <button id = "bttn" onclick = "closeModal()"> Be a little bit longer </button>
+    <button id = "bttn" onclick = "closeModal()"> X </button>
+    <button id = "butt" onclick = "saveRecipe()"> Save </button>
 <!--     Show recipe title -->
   <p id="title"></p>
 
@@ -180,7 +186,7 @@
   <p id="prep"></p>
 
 <!--     disp recipe image -->
-  <img id="image" src=""></p>
+  <!-- <img id="image" src=""></p> -->
 
    </div>
 </div>
